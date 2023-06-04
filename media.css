@@ -1,0 +1,200 @@
+
+
+
+@media screen and (max-width: 1200px) {
+    .home .nav-logo {
+        width: 40%;
+    }
+    .nav-links {
+        width: 60%;
+        margin: auto;
+    }
+    .feedback {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home .nav-logo {
+        width: 20%;
+    }
+    .nav-links {
+        width: 80%;
+    }
+    .about {
+        padding: 100px;
+    }
+    .about .box {
+        width: 100%;
+        padding: 0;
+    }
+    .about .info {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .our-service div .service-item {
+        width: 50%;
+    }
+    .portofolio .porto-imgs .porto-img div .inner {
+        width: 50%;
+    }
+    .counter .number-box {
+        width: 50%;
+    }
+    .feedback {
+        width: 90%;
+    }
+    .person-feedback {
+        padding: 30px;
+    }
+    .person-feedback::after {
+        top: -70%;
+        left: -15%;
+    }
+    .blogs .blogs-box .blog-box {
+        width: 100%;
+        padding: 25px 100px;
+    }
+    .contact {
+        width: 80%;
+    }
+    .contact .left,
+    .contact .right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home .nav-logo {
+        width: 90%;
+    }
+    .home .nav-logo a {
+        display: inline-block;
+        padding: 10px 0;
+        font-size: 24px;
+        font-weight: 800;
+        color: #FF305B;
+    }
+    .nav-links {
+        display: none;
+        float: none;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        text-align: center;
+        background-color: #555;
+        z-index: 10;
+    }
+    .nav-links ul {
+        width: fit-content;
+        margin: auto;
+    }
+    .nav-links li {
+        float: none;
+        display: block;
+    }
+    .nav-links li a {
+        padding: 10px;
+    }
+    
+    .home .home-content {
+        width: 70%;
+    }
+    .home .home-content h3 {
+        font-size: 18px;
+    }
+    .home .home-content h1 {
+        font-size: 30px;
+        margin: 8px 0;
+    }
+    .home .home-content h4 {
+        font-size: 19px;
+    }
+    .about {
+        padding: 100px 0;
+    }
+    .about .box {
+        width: 100%;
+        padding: 0;
+    }
+    .about .image {
+        box-shadow: none;
+    }
+    .about .image img {
+        top: 0px;
+        left: 0px;
+    }
+    .about .overlay {
+        top: 100%;
+        left: 0;
+    }
+    .about .image:hover .overlay {
+        top: 0;
+    }
+    .about .info {
+        padding: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about .info ul li:nth-child(odd) {
+        width: 100%;
+    }
+    .about .info ul li:nth-child(even) {
+        width: 100%;
+    }
+
+    .about .info .cv,
+    .about .info .hire,
+    input[type="submit"] {
+        padding: 10px 15px;
+        margin-right: 6px;
+    }
+    .our-service div .service-item {
+        width: 100%;
+    }
+    .portofolio div .porto-imgs .porto-img {
+        width: 100%;
+        
+    }
+
+    .counter .number-box {
+        width: 100%;
+    }
+    .feedback {
+        width: 90%;
+    }
+    .person-feedback {
+        padding: 20px;
+    }
+    .person-feedback::after {
+        width: 200px;
+        height: 500px;
+    }
+    .feedback img {
+        margin-bottom: 15px;
+    }
+    .feedback .person-info {
+        padding-left: 0px;
+        display: block;
+        width: 100%;
+    }
+    .blogs .blogs-box .blog-box {
+        width: 100%;
+        padding: 15px;
+    }
+    .contact {
+        width: 90%;
+    }
+    .contact .left,
+    .contact .right {
+        width: 100%;
+    }
+    .our-service h2,
+    .contact h2,
+    .blogs h2,
+    .feedback h2,
+    .portofolio h2 {
+        font-size: 32px;
+    }
+}
